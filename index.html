@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+    <script src="js/JicemoonMobileTouch.js"></script>
+    <script src="js/HardestGame.js"></script>
+    <script src="js/index.js"></script>
+    
+    <title></title>
+</head>
+<body>
+<div class="layoutRoot">
+    <div class="game">
+        <canvas id="gameStage"></canvas>
+        <div class="tips">
+            <p id="currentLevel">Level: <span></span></p>
+            <p id="gameTip"></p>
+        </div>
+        <div id="gameOverDialog" class="dialog" style="display: none">
+            <h3>Game Over</h3>
+            <p>You have passed <span id="overLevel"></span> levels</p>
+            <div class="btns">
+                <button id="btnContinue">Continue</button>
+                <button id="btnReStart">Restart</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
