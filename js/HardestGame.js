@@ -25,7 +25,7 @@
     var BULLET_Y = ROTATION_CENTER.y + ROTATION_RADIUS + BULLET_SPACE + CANVAS_HEIGHT * 0.2;
     var FILL_STYLE = "#000000";
     var BULLET_TEXT_STYLE = "#ffffff";
-    const AdController = window.Adsgram.init({ blockId: "1165" });
+    const AdController = window.Adsgram.init({ blockId: "1214" });
     if(!window["extendClass"]){
         window["extendClass"] = function (sonClass, parentClass) {
             if (typeof parentClass === "function" && typeof sonClass === "function") {
